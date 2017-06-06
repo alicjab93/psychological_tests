@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file source-language="en" datatype="plaintext" original="SonataAdminBundle.en.xliff">
+        <body>
+            <trans-unit id="action_edit_questions">
+                <source>action_edit_questions</source>
+                <target>Edytuj pytania</target>
+            </trans-unit>
+            <trans-unit id="action_edit_test">
+                <source>action_edit_test</source>
+                <target>Edytuj Test</target>
+            </trans-unit>            
+        </body>
+    </file>
+</xliff>

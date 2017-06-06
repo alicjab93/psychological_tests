@@ -1,0 +1,10 @@
+{% if admin.canAccessObject('edit', object) and admin.hasRoute('edit') %}
+{% if object.kinds is not empty %}
+    <li>
+        <a class="sonata-action-element" href="{{ path('admin_app_test_question_edit', {'id': object.id}) }}">
+            <i class="fa fa-edit" aria-hidden="true"></i>
+            {{ 'action_edit_questions'|trans({}, 'SonataAdminBundle') }}
+        </a>
+    </li>
+{% endif %}
+{% endif %}
